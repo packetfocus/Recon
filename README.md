@@ -16,13 +16,13 @@ NOTE:
 The tools currently takes a target domain from the command line, runs Subbrute then imports that file into EyeWitness. Run setup.sh to create a tools directory and install SubBrute and EyeWitness. If you already have the tools then modify the recon.sh script with the appropriate paths.
 
 ADDED:
-Set target at the command line
-Ability to set OUTPUT file and directory from command line
-created setup file (setup.sh) to install Subbrute and Eyewitness
+Set target at the command line  <br>
+Ability to set OUTPUT file and directory from command line <br>
+created setup file (setup.sh) to install Subbrute and Eyewitness <br>
 
 CREDITS:
-https://github.com/TheRook/subbrute
-https://github.com/ChrisTruncer/EyeWitness
+https://github.com/TheRook/subbrute  <br>
+https://github.com/ChrisTruncer/EyeWitness  <br>
 
 TODO:
 Figure out how to get status feedback from the tools while they are running. 
