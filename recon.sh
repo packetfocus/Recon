@@ -5,7 +5,7 @@ if [ "$1" = "" ]; then
    echo "./scan DOMAIN OUTPUTFILE OUTPUTDIRECTORY"
    exit
 fi
-
+touch $2
 echo "Starting Recon/OSINT against $1"
 echo ""
 echo "OPTIONS------"
