@@ -19,13 +19,14 @@ ADDED:
 Set target at the command line  <br>
 Ability to set OUTPUT file and directory from command line <br>
 created setup file (setup.sh) to install Subbrute and Eyewitness <br>
+Added tail -f to see subbrute output in real-time <br>
 
 CREDITS:
 https://github.com/TheRook/subbrute  <br>
 https://github.com/ChrisTruncer/EyeWitness  <br>
 
 TODO:
-Figure out how to get status feedback from the tools while they are running.  <br>
+Figure out how to get status feedback from the tools while they are running. (COMPLETE)  <br>
   For Subbrute, could we count # of requests in target file, and have the tool count as it makes requests? Then output this to screen.
   For EyeWitness, can we just pipe STDOUT to screen to see its status?  <br>
 Add in command line switch to use specific brute files for Subbrute instead of tools default  <br>
