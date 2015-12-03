@@ -5,7 +5,7 @@ Usage:
 ./recon.sh DOMAIN TARGET OUTPUTFILE_FOR_SUBBRUTE OUTPUT_DIRECTORY
 
 Example:
-root@yourmom:~/tools/Recon# ./recon.sh cisco.com /tmp/output_cisco.txt /tmp/output/cisco/ <br>
+root@yourmom:~/tools/Recon#<b> ./recon.sh cisco.com /tmp/output_cisco.txt /tmp/output/cisco/ <b><br>
 Starting SubDomain Brute Force! <br>
 testing cisco.com <br>
 output file for subbrute /tmp/output_cisco.txt <br>
