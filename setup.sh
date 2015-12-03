@@ -13,6 +13,10 @@ then
     cd ~/tools
     echo "Downloading and Installing EyeWitness"
     git clone https://github.com/ChrisTruncer/EyeWitness.git
+    cd ~/tools/EyeWitness/setup
+    chmod +x setup.sh
+    ./setup.sh
+    echo "EyeWitness installed and setup"
 else
     echo "EyeWitnedd is installed"
 fi
