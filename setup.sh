@@ -1,16 +1,16 @@
 echo "checking to see if /tools directory exists"
 
-if [ ! -d ../tools ]
+if [ ! -d ~/tools ]
 then
-    mkdir -p /tools
+    mkdir -p ~/tools
 else
-    echo "TOOLS Directory exists"
+    echo "TOOLS Directory exists in users home directory"
 fi
 echo "Checking to see if EyeWitness is installed"
 
-if [ ! -d ../tools/EyeWitness/ ]
+if [ ! -d ~/tools/EyeWitness/ ]
 then
-    cd ../tools
+    cd ~/tools
     echo "Downloading and Installing EyeWitness"
     git clone https://github.com/ChrisTruncer/EyeWitness.git
 else
@@ -19,9 +19,9 @@ fi
 
 echo "Checking to see if SubBrute is installed"
 
-if [ ! -d ../tools/subbrute/ ]
+if [ ! -d ~/tools/subbrute/ ]
 then
-    cd ../tools
+    cd ~/tools
     echo "Downloading and Installing SubBrute"
     git clone https://github.com/TheRook/subbrute.git
 else
