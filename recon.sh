@@ -6,10 +6,12 @@ if [ "$1" = "" ]; then
    exit
 fi
 
-echo "Starting SubDomain Brute Force!"
-echo "testing $1"
-echo "output file for subbrute $2"
-echo "output directory for EyeWitness $3"
+echo "Starting Recon/OSINT against $1"
+echo ""
+echo "OPTIONS------"
+echo "Output file for SubBrute $2"
+echo "Output directory for EyeWitness $3"
+echo "Starting Sub-Domain brute force. be PATIENT, this will take some time"
 python ~/tools/subbrute/subbrute.py $1 > $2 
 echo "Taking SubDomain list and running it through EyeWitness"
 python ~/tools/EyeWitness/EyeWitness.py -f $2 --web --results 250 -d $3 --no-prompt
